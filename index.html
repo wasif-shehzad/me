@@ -1,235 +1,36 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>Wasif  | FullStack Engineer</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wasif | FullStack Engineer</title>
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[Wasifshehzad], [wasif shehzad], Fullstack developer Javascript developer Technology Consultant React Nodejs NextJS NestJS Frontend Developer" />
+  <meta name="keywords"
+    content="[Wasifshehzad], [wasif shehzad], Fullstack developer Javascript developer Technology Consultant React Nodejs NextJS NestJS Frontend Developer" />
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Wasif Shehzad | Fullstack Developer Technology Consultant React Nodejs NextJS NestJS AWS services Frontend Developer" />
+  <meta name="description"
+    content="Wasif Shehzad | Fullstack Developer Technology Consultant React Nodejs NextJS NestJS AWS services Frontend Developer" />
 
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.youtube.com/watch?v=6g01e8H05OQ" />
+  <meta property="og:title" content="Wasif | FullStack Engineer" />
+  <meta property="og:description" content="FullStack Engineer" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#98asdf89" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://www.youtube.com/watch?v=6g01e8H05OQ" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Wasif  | FullStack Engineer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="FullStack Engineer" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <!-- <meta
-      property="og:image"
-      content="https://devfolio.js.org/assets/devfolio.png"
-    /> -->
+  <style>
+    body.font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-BBFk0TaS.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Cpx8QzAk.css">
+</head>
 
-    <!-- Twitter
-    <meta property="twitter:card" content="summary_large_image" />
-     Again fill content attr with the URL of this portfolio you'll host -->
-    <!-- <meta property="twitter:url" content="https://devfolio.js.org" /> -->
-    <!-- Recommended to use the same text used within <title> element -->
-    <!-- <meta property="twitter:title" content="[Your name here] | Developer" /> -->
-    <!-- short description that shows up while your portfolio is shared -->
-    <!-- <meta -->
-      <!-- property="twitter:description" -->
-      <!-- content="Made using DevFolio Template" -->
-    <!-- /> -->
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <!-- <meta -->
-      <!-- property="twitter:image" -->
-      <!-- content="https://anilseervi.vercel.app/assets/devfolio.png" -->
-    <!-- /> --> 
+<body class="bg-[#103469] p-4 text-white font-poppins">
+  <div id="root"></div>
+</body>
 
-    <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-
-    <!-- FontAwesome Icons link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script defer src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
-
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
-
-      gtag("config", "UA-122228201-4")
-    </script>
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Wasif Shehzad</span>
-          <br />
-          I'm Fullstack Engineer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="https://calendly.com/wasifshehzad063/30min">Get in touch</a>
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
-    </div>
-    <!-- /END Hero Section -->
-
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/img.png"
-              alt="Profile Image"
-              width="450"
-              height="350"
-            />
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              I have been working as Full stack engineer for the past 8+ years. I have worked
-              in diverse domians like health, Fintech, Education, Security, Logistics and Food as well.
-              For the past few years I have worked with multiple enteriprise clients and multinational
-              Banks, While working there I have developed many skills like Leadership, Best practices,
-              Busniess understanding, Communication, and Leading Technologies.
-            </p>
-            <p class="about-wrapper__info-text">
-
-              As part of my technical expertise I help my clients leverage the full potential
-               of technology and That's what I'm passionate about. My real strength is my 
-               ability to truly understand the expectations and deliver the impactfull results 
-              I take pride in adding value and making a meaningful impact.
-            </p>
-            <span class="about-wrapper__cta">
-              <a href="https://calendly.com/wasifshehzad063/30min" class="cta-btn cta-btn--resume">Schedule a call</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!--Projects Section-->
-
-    <!-- End Projects Section -->
-
-    <!-- Contact Section -->
-    <!-- <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Email: wasifshehzad063@gmail.com</p>
-          <a href="https://calendly.com/wasifshehzad063/30min" class="cta-btn cta-btn--resume">Schedule a call</a>
-        </div>
-      </div>
-    </section> -->
-    <!-- END Contact Section -->
-
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
-    
-      </div>
-    </footer>
-    <!-- END Footer Section -->
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
 </html>
