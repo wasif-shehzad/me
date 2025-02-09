@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.36caad17.css",
-    "main.js": "./static/js/main.c407fe73.js",
+    "main.js": "./static/js/main.877d5419.js",
     "static/media/slider2.JPG": "./static/media/slider2.d6af69d447227c7952d9.JPG",
     "static/media/backgroundImg.png": "./static/media/backgroundImg.c14bc4e0129e3a9812f5.png",
     "static/media/slider3.JPG": "./static/media/slider3.c1f4917fff668b9d4e2b.JPG",
+    "static/media/leap-deep.jpeg": "./static/media/leap-deep.3c539a598693af30883e.jpeg",
     "static/media/workshop.png": "./static/media/workshop.a942c7bb8e32a23ea5f5.png",
     "static/media/certificate.png": "./static/media/certificate.264eb4614247a7ad48fc.png",
     "static/media/wasif0.png": "./static/media/wasif0.563bfef3fcecf88a34c1.png",
@@ -15,10 +16,10 @@
     "static/media/antd.png": "./static/media/antd.13e5f7000732e4b9b7c4.png",
     "index.html": "./index.html",
     "main.36caad17.css.map": "./static/css/main.36caad17.css.map",
-    "main.c407fe73.js.map": "./static/js/main.c407fe73.js.map"
+    "main.877d5419.js.map": "./static/js/main.877d5419.js.map"
   },
   "entrypoints": [
     "static/css/main.36caad17.css",
-    "static/js/main.c407fe73.js"
+    "static/js/main.877d5419.js"
   ]
 }
