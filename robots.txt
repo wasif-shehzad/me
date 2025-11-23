@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wasif-shehzad.github.io/me/sitemap.xml
